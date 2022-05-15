@@ -161,6 +161,51 @@ img{
   height: 1rem;
 }
 
+@media screen and (max-width: 731px) {
+  .page-container{
+    font-size: 0.8rem;
+  }
+
+  .slider-container{
+    justify-content: center;
+  }
+
+  label{
+    order: 1;
+  }
+
+  label:nth-child(5){
+    margin: 0;
+  }
+
+  .slider-description-container{
+    width: 100%;
+    order: 2;
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 321px){
+  .page-container{
+    font-size: 0.5rem;
+    height: max-content;
+  }
+
+  .slider-container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  h1{
+    font-size: 1rem;
+  }
+
+  label{
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+}
+
 /*
 
 .page-container{
