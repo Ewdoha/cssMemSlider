@@ -1,5 +1,6 @@
 html{
   background-color: aliceblue;
+  overflow-x: hidden;
 }
 
 h1{
